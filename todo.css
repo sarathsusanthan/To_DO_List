@@ -1,0 +1,42 @@
+
+#myvid{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.disabled{
+    pointer-events: none;
+   
+}
+.active1{
+    
+    color: white;
+    font-weight: bold;
+    margin-left: 2%;
+}
+.grey{
+    color: rgb(204, 199, 199);
+    margin-left: 2%;
+}
+.box{
+  margin: 10px;
+}
+.hov:hover{
+    background-color: rgb(61, 97, 255);
+
+}
+.content{
+    position: relative;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+}
+#ptag{
+    
+    color: rgb(252, 248, 8); 
+    margin-top: 5%;
+    margin-left: 60%;
+    width: 30%;
+    position: fixed;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="flip-container" style="text-align: center; height: 55%;" >
+        <div class="flipper" style="background-color: aqua;height: 100%;" id="flipper">
+            <div class="front">
+                <h1 class="title">ToDo List Login</h1><br>
+                <img src="images/todo1.png" height="70%" width="70%" alt="logo"><br><br>
+                <a class="flipbutton lg" id="loginButton" style="font-size: 26px;" href="#">CLICK TO LOGIN</a>
+            </div>
+            
+            <div class="back">
+                <h1 style="color: rgb(17, 0, 255);" class="title">Login</h1>
+                <form action="todo.html" id="log" onsubmit="return validate(checker)">
+                        <input type="text" onkeyup="validate();" id="user" placeholder="Username" />
+                        <label id="nouser"></label><br><br>
+                        <input type="password" onkeyup="validate();" id="pw" placeholder="Password" /><br>
+                        <label id="nopw" ></label><br><br>
+                        <input type="submit" id="lbut"  value="Login"/>
+                </form>
+                <a class="flipbutton" style="color: black;" id="registerButton" href="#">< Back</a>
+            </div>
+        </div>
+        </div>
+        <script src="login.js"></script>
+</body>
+</html>
